@@ -1282,6 +1282,8 @@ public:
     }
     virtual bool Accept( XMLVisitor* visitor ) const;
 
+    bool IsEmpty() const;
+
     /** Given an attribute name, Attribute() returns the value
     	for the attribute of that name, or null if none
     	exists. For example:
